@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /slides/
+RewriteCond %{REQUEST_URI} !^/slides/public/
+RewriteRule . index.php
