@@ -1,4 +1,4 @@
-# was du sehen ist *nicht* was du bekommen
+# was du sehen ist<br>*nicht* was du bekommen
 ## u-kopfen
 ### viel kleiner kopfen
 #### und also an
@@ -45,18 +45,18 @@ https://gcm.schule/
 du kannst auch des netzes bilder zur verwendung
 heranziehen:
 
-![beschreiben sie](https://gcm.schule/slides/gcm.svg)
+![beschreiben sie](https://gcm.schule/public/logos/logo-white.svg)
 
 ---
 
 ## einkaufszettel
 
 können chaotisch sein:
-- presse `f` für vollbildschirm
-- presse `o` für teilsicht
-  - arbeitet außerdem mit `esc`
-- presse `b` zum ausfaden
-- presse `s` für sprechersicht
+- Apple-Geräte
+- oranges
+- Milch
+  - bin oder mandelfarben
+- fr e sch ein voca tun
 
 ---
 
@@ -88,7 +88,7 @@ du kannst den `inlinien kode` oder ein machen
 
 ```
 funktion kodeRechteck (a, b) {
-  druck ('mit syntax hochlichten');
+  druck ('mit(ohne?) syntax hochlichten');
   lasse c = a*b*5; // wie du siehst, **markierrunter**
   // ~~syntax~~ will ignoriert werden in kode rechteck
   rückgabe c;
@@ -122,13 +122,13 @@ aber es|sicher sieht|schöner
 ## latex
 
 campusslides hat gebaut rein die funktionalität für
-anzeige rezeptur. diese verbrauchen latex syntax, und
-sehen auch schön kühl:
+anzeige rezeptur. diese verbrauchen \\( \LaTeX \\)
+syntax, und sehen auch schön kühl:
 
-`$$ E = m \cdot c^2 $$`
+$$ E = m \cdot c^2 $$
 
-`$$ x_{1/2} = -{p\over 2} \pm \sqrt{
-  \left( p\over 2 \right)^2 - q} $$`
+$$ x_{1/2} = -{p\over 2} \pm \sqrt{
+  \left( p\over 2 \right)^2 - q} $$
 
 ---
 
@@ -143,11 +143,9 @@ sehen auch schön kühl:
 campusslides war entwickelt von
 [eintyp](https://github.com/eintyp) und
 [ijontychie](https://github.com/ijontychie).
-das projekt es selbst steht auf den riesenschultern.
-nebenher die sprachen, wir schwer benötigten das
-[reveal.js](https://revealjs.com/) als unser
-kerntechnologie. Reveal.js ist offenquellcode, aber
-dessen entwickler machten auch ein WYSIWYG werkzeug,
-welches benutzt sein kann zum erstellen wunderschöne
-htas5 präsis:
-[schieben](https://slides.com/).
+das projekt es selbst steht auf den riesenschultern:
+nebenher die sprachen, wir liegen wir auf
+[marked](https://marked.js.org) und
+[mathjax](https://mathjax.org). \
+beide sind kostenlos (wie in freiheit) und quelloffen
+weichware.

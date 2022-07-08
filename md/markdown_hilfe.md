@@ -1,4 +1,4 @@
-# What You See Is *Not* What You Get
+# What You See Is<br>*Not* What You Get
 ## Unterüberschrift
 ### Noch Viel Kleinere Unterunterüberschrift
 #### Und So Weiter
@@ -47,18 +47,18 @@ https://gcm.schule/
 
 Bilder aus dem gesamten Web können verwendet werden:
 
-![Bildbeschreibung](https://gcm.schule/slides/gcm.svg)
+![Bildbeschreibung](https://gcm.schule/public/logos/logo-white.svg)
 
 ---
 
 ## Listen
 
 Listen können unsortiert sein:
-- drücke `f` für Vollbildmodus
-- drücke `o` für eine Folienübersicht
-  - das funktioniert auch mit `esc`
-- drücke `b` um die Präsentation auszublenden
-- drücke `s` für eine Moderationsansicht
+- Äpfel
+- Orangen
+- Milch
+  - Soja oder Mandel
+- Avocado
 
 ---
 
@@ -93,7 +93,7 @@ werden, oder auch als
 
 ```
 function codeBlock (a, b) {
-  print ('mit farblicher Syntaxhervorhebung');
+  print ('mit (ohne?) farblicher Syntaxhervorhebung');
   let c = a*b*5; // **Markdown** ~~Syntax~~ wird in
   // Codeblöcken ignoriert
   return c;
@@ -127,13 +127,13 @@ aber es sieht|*soooo* viel|besser aus!
 ## LaTeX
 
 CampusSlides bietet eingebaute Unterstützung für
-Formeln. Diese nutzen LaTeX-Syntax, welche häufig für
-wissenschaftliche Arbeiten verwendet wird.
+Formeln. Diese nutzen \\( \LaTeX \\)-Syntax, welche
+häufig für wissenschaftliche Arbeiten verwendet wird.
 
-`$$ E = m \cdot c^2 $$`
+$$ E = m \cdot c^2 $$
 
-`$$ x_{1/2} = -{p\over 2} \pm \sqrt{
-  \left( p\over 2 \right)^2 - q} $$`
+$$ x_{1/2} = -{p\over 2} \pm \sqrt{
+  \left( p\over 2 \right)^2 - q} $$
 
 ---
 
@@ -149,9 +149,7 @@ CampusSlides wurde entwickelt von
 [eintyp](https://github.com/eintyp) und
 [ijontychie](https://github.com/ijontychie).
 Aber das Projekt ruht auf den Schultern von Giganten.
-Neben den Programmiersprachen steckt im Kern
-[reveal.js](https://revealjs.com/). Das Projekt
-selbst ist Open Source, aber die Entwickler haben ein
-kostenpflichtiges WYSIWYG-Tool mit dem man schöne
-HTML5-Präsentationen bauen kann:
-[slides](https://slides.com/).
+Neben den Programmiersprachen stecken im Kern
+[marked](https://marked.js.org) und
+[MathJax](https://mathjax.org). \
+Beide Projekte sind frei (wie in Freiheit) und open-source.

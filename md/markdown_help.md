@@ -1,4 +1,4 @@
-# What You See Is *Not* What You Get
+# What You See Is<br>*Not* What You Get
 ## Subheading
 ### Even Smaller Heading
 #### And So On
@@ -43,18 +43,18 @@ You can insert [links](https://gcm.schule/)…
 https://gcm.schule/
 
 You can also use images from anywhere on the web:
-![image description](https://gcm.schule/slides/gcm.svg)
+![image description](https://gcm.schule/public/logos/logo-white.svg)
 
 ---
 
 ## Lists
 
 Lists can be unordered:
-- press `f` for fullscreen
-- press `o` for tile view
-  - also works with `esc`
-- press `b` to fade out
-- press `s` for speaker view
+- apples
+- oranges
+- milk
+  - soy or almond
+- fr e sh a voca do
 
 ---
 
@@ -86,7 +86,7 @@ You can use `inline code` or make a
 
 ```
 function codeBlock (a, b) {
-  print ('with syntax highlighting');
+  print ('with(out?) syntax highlighting');
   let c = a*b*5; // as you can see, **markdown**
   // ~~syntax~~ will be ignored in code blocks
   return c;
@@ -120,13 +120,13 @@ but it|sure looks|prettier
 ## LaTeX
 
 CampusSlides has built-in functionality for
-displaying Formulas. These use LaTeX Syntax, and also
-look pretty cool:
+displaying Formulas. These use \\( \LaTeX \\) Syntax,
+and also look pretty cool:
 
-`$$ E = m \cdot c^2 $$`
+$$ E = m \cdot c^2 $$
 
-`$$ x_{1/2} = -{p\over 2} \pm \sqrt{
-  \left( p\over 2 \right)^2 - q} $$`
+$$ x_{1/2} = -{p\over 2} \pm \sqrt{
+  \left( p\over 2 \right)^2 - q} $$
 
 ---
 
@@ -142,9 +142,7 @@ CampusSlides was developed by
 [eintyp](https://github.com/eintyp) and
 [ijontychie](https://github.com/ijontychie).
 The project is standing on the shoulders of giants:
-Besides the languages, we heavily rely on
-[reveal.js](https://revealjs.com/) as the core
-technology. Reveal.js is open source, but its
-developers also made a WYSIWYG tool, which can be
-used to create beautiful HTML5 presentations:
-[slides](https://slides.com/).
+Besides the programming languages, we rely on
+[marked](https://marked.js.org) and
+[MathJax](https://mathjax.org). \
+Both are free (as in freedom) and open source software.

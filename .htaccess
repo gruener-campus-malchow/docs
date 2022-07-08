@@ -1,4 +1,9 @@
 RewriteEngine On
-RewriteBase /slides/
-RewriteCond %{REQUEST_URI} !^/slides/public/
-RewriteRule . index.php
+
+RewriteBase /
+RewriteCond $1#%{REQUEST_URI} ^(.*)#(.*)\1$
+RewriteRule ^(.*)$ - [E=BASE:%2]
+
+RewriteCond %{REQUEST_FILENAME} !index\.php$
+RewriteCond %{ENV:BASE}#%{REQUEST_URI} 	!^(.*)#\1public
+RewriteRule . %{ENV:BASE}index.php [L]
