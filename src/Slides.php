@@ -35,14 +35,6 @@ class Slides {
 		return ['id' => $id, 'encryption_key' => $encryption_key, 'admin_key' => $admin_key];
 	}
 
-	public static function render($content) {
-		ob_start();
-		include 'src/snippets/render.php';
-		$buffer = ob_get_contents();
-		ob_end_clean();
-		echo str_replace('{{CONTENT}}', htmlspecialchars($content), $buffer);
-	}
-
 
 	private static function encrypt($content, $key) {
 		return openssl_encrypt($content, MD_CRYPT_METHOD, $key);
