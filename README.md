@@ -4,4 +4,4 @@ This project enables you to write presentations with Markdown. You can see a sta
 
 ## Installation
 
-Put the files on an Apache webserver running PHP. That's it, no more configuring required.
+Put the files on an Apache webserver running PHP. That's it, no more tampering with config files required.
