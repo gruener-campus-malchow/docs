@@ -1,0 +1,13 @@
+$bg: #eee;
+$text: #0a4;
+
+body {
+	//background-color: $bg;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 1rem;
+
+	h1 {
+		color: $text;
+	}
+}
