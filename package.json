@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Create Documents with Markdown",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruener-campus-malchow/docs.git"
+  },
+  "author": "eintyp (https://github.com/eintyp)",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/gruener-campus-malchow/docs/issues"
+  },
+  "homepage": "https://github.com/gruener-campus-malchow/docs#readme",
+  "dependencies": {
+    "highlight.js": "^11.7.0",
+    "html2pdf.js": "^0.10.1",
+    "marked": "^4.2.5",
+    "mathjax": "^3.2.2",
+    "xss": "^1.0.14"
+  }
+}
