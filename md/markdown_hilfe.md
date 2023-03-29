@@ -1,102 +1,92 @@
-# What You See Is<br>*Not* What You Get
-## Unterüberschrift
-### Noch Viel Kleinere Unterunterüberschrift
-#### Und So Weiter
+# Hallo!
+
+Mit **GCM Slides** können mit wenig Aufwand Präsentationen erstellt werden.
+
+Auf der linken Seite kann Text eingegeben werden.
+Dieser wird automatisch in die Folien auf der rechten Seite umgewandelt.
 
 ---
 
 ## Einführung
 
-**CampusSlides** verwendet die Sprache *Markdown*, um
-Präsentationen zu erstellen. Hier haben wir einige
-Beispielfolien zusammengestellt, um die Sprache allen
-weniger erfahrenen Usern näher zu bringen.
+**GCM Slides** verwendet die Sprache *Markdown*.
 
-Das Ganze sollte relativ verständlich und
-selbsterklärend sein, Du solltest alles in kurzer
-Zeit gut verstehen können.
+Das bedeutet, bestimmte Zeichen können Text formatieren.
+Werden zum Beispiel um ein Wort Sternchen gesetzt, wird dieses Wort *kursiv*.
+Doppelte Sternchen machen Text **fett**, doppelte Tilden ~~streichen durch~~.
+
+Drei Minuszeichen erzeugen eine neue Folie, so wie hier:
+
+---
+
+# What You See Is<br>*Not* What You Get
+## Unterüberschrift
+### Unter-Unterüberschrift
+#### Und So Weiter
 
 ---
 
 ## Text
 
-Die Folien auf der rechten Seite wurden durch den \
-Code auf der linken Seite generiert.
+Zeilenumbrüche werden mit einem Backslash am Zeilenende \
+markiert.
 
-Hier wird ersichtlich, dass man für Zeilenumbrüche \
-eine Zeile frei lassen, oder am Zeilenende einen
-Rückwärtsschrägstrich setzen muss.
-
-Einfache Textformatierung funktioniert wie folgt:
-*kursiv*
-**fett**
-~~durchgestrichen~~
+Absätze werden durch eine leere Zeile voneinander getrennt.
 
 *****
 
-Text kann mit horizontalen Linien visuell getrennt
-werden.
-
----
-
-Markdown ermöglicht ein einfaches Einfügen von
-[Links](https://gcm.schule/)…
-
-…welche auch automatisch erkannt werden: \
-https://gcm.schule/
-
-Bilder aus dem gesamten Web können verwendet werden:
-
-![Bildbeschreibung](https://gcm.schule/public/logos/logo-white.svg)
+Außerdem können mit fünf Sternchen horizontale Trennlinien eingefügt werden.
 
 ---
 
 ## Listen
 
-Listen können unsortiert sein:
+Listen können ungeordnet sein:
 - Äpfel
-- Orangen
 - Milch
   - Soja oder Mandel
-- Avocado
+- Orangen
+
+…oder auch geordnet:
+1. Home
+2. Sweet
+3. Home
 
 ---
 
-## Noch Viel Mehr Listen
+## Links
 
-…oder auch sortiert:
-1. öffne https://gcm.schule/slides/
-   1. dieser Link wird automatisch erkannt
-   2. kann allerdings keinen userdefinierten
-      Text anzeigen
-2. Markdown eingeben
-3. speichern
-4. Mit all Deinen Freunden teilen!
-42. die Zahl, die vor dem Stichpunkt steht, spielt
-    dabei keine Rolle, die Punkte werden trotzdem
-    von oben nach unten durchnummeriert.
+Links werden automatisch erkannt: https://gcm.schule/
+
+Optional kann auch ein [anderer Text](https://gcm.schule/) angegeben werden.
+
+---
+
+## Bilder
+
+Bilder aus dem gesamten Web können verwendet werden:
+
+![Ein Beispielbild von Wikipedia](https://upload.wikimedia.org/wikipedia/commons/0/02/Malchow_Schule_im_Gr%C3%BCnen_2012-10-10_ama_fec_%281%29.JPG)
 
 ---
 
 ## Zitate
 
-> Zitate
->> können auch
->>> verschachtelt sein
+>> You miss 100% of the shots you don't take.
+>
+> Wayne Gratzky
+
+Michael Scott
 
 ---
 
 ## Code
 
-Code kann entweder `direkt inline` dargestellt
-werden, oder auch als
+Code kann entweder `direkt inline` dargestellt werden, oder auch als
 
-```
-function codeBlock (a, b) {
-  print ('mit (ohne?) farblicher Syntaxhervorhebung');
-  let c = a*b*5; // **Markdown** ~~Syntax~~ wird in
-  // Codeblöcken ignoriert
-  return c;
+```javascript
+function codeBlock() {
+  return 'mit farblicher Syntaxhervorhebung';
 }
 ```
 
@@ -106,34 +96,74 @@ function codeBlock (a, b) {
 
 Tabellen sehen in Markdown sehr ✨fancy✨ aus:
 
-| Tabellen    | Werden    | Unterstützt         |
-| :---------- | :-------: | ------------------: |
-| und Spalten | können    | ausgerichtet werden |
-| linksbündig | zentriert | rechtsbündig        |
+KfZ-Kennzeichen | Stadt         | Bundesland
+----------------|---------------|-----------
+A               | Augsburg      | Bayern
+B               | Berlin        | Berlin
+C               | Chemnitz      | Sachsen
+D               | Düsseldorf    | Nordrhein-Westfahlen
 
----
-
-## Tabellen
-
-Allerdings sind einige Teile nicht notwendig:
-
-die Linien müssen|nicht ordentlich|angeordnet sein,
-:--|:-:|--:
-und einige|können weggelassen|werden
-aber es sieht|*soooo* viel|besser aus!
 
 ---
 
 ## LaTeX
 
-CampusSlides bietet eingebaute Unterstützung für
-Formeln. Diese nutzen \\( \LaTeX \\)-Syntax, welche
-häufig für wissenschaftliche Arbeiten verwendet wird.
+GCM Slides bietet eingebaute Unterstützung für Formeln.
+Diese nutzen \\( \LaTeX \\)-Syntax, welche häufig für wissenschaftliche Arbeiten verwendet wird.
 
 $$ E = m \cdot c^2 $$
 
 $$ x_{1/2} = -{p\over 2} \pm \sqrt{
   \left( p\over 2 \right)^2 - q} $$
+
+---
+
+## Bilder (erweitert)
+
+![Ein linksbündig ausgerichtetes Bild !left !white !round](https://gcm.schule/logos/neo.svg)
+Bilder können mit **Alt-Tags** angeordnet werden. Diese sind Teil des Alt-Attributs des Bildes,
+und können beliebig kombiniert werden. Rechts- oder linksbündig ausgerichtete Bilder lassen im
+restlichen Teil der Folie noch Text zu, dieser wird automatisch um das Bild herum angeordnet.
+
+---
+
+## Bilder (erweitert)
+
+![Ein rechtsbündig ausgerichtetes Bild !right !white !round](https://gcm.schule/logos/neo.svg)
+Bilder sind immer Teil eines Absatzes und an diesen gebunden.
+
+Der folgende Absatz wird unter dem Bild angeordnet.
+
+---
+
+### Alt Tags
+
+Alt Tag | Funktion
+--------|:--------
+`!white`|transparente Teile des Bildes weiß gefüllt
+`!black`|transp. Teile des Bildes schwarz gefüllt
+`!round`|abgerundete Ecken
+`!right`|im Absatz rechts ausgerichtet
+`!left` |im Absatz links ausgerichtet
+`!small`|kleines Bild
+`!large`|großes Bild
+
+---
+
+### Mehr Alt Tags
+
+Alt Tag   | Funktion
+----------|:--------
+`!contain`|Bild füllt die ganze Folie aus. Das gesamte Bild ist zu sehen.
+`!cover`  |Bild füllt die ganze Folie aus. Die gesamte Folie ist bedeckt.
+
+Transparente Bilder mit `!contain` oder `!cover` werden innerhalb einer Folie aufeinander angezeigt.
+Diese Alt Tags sind mit den Hintergrundfarben der letzten Folie kombinierbar, siehe nächste Folie.
+
+---
+
+![!cover !white](https://gcm.schule/logos/neo-black.svg)
+![!contain](https://gcm.schule/logos/neo.svg)
 
 ---
 
@@ -145,11 +175,7 @@ $$ x_{1/2} = -{p\over 2} \pm \sqrt{
 
 # Abspann
 
-CampusSlides wurde entwickelt von
-[eintyp](https://github.com/eintyp) und
-[ijontychie](https://github.com/ijontychie).
+GCM Slides wurde entwickelt von [eintyp](https://github.com/eintyp) und [ijontychie](https://github.com/ijontychie).
 Aber das Projekt ruht auf den Schultern von Giganten.
-Neben den Programmiersprachen stecken im Kern
-[marked](https://marked.js.org) und
-[MathJax](https://mathjax.org). \
+Neben den Programmiersprachen stecken im Kern [marked](https://marked.js.org) und [MathJax](https://mathjax.org). \
 Beide Projekte sind frei (wie in Freiheit) und open-source.
