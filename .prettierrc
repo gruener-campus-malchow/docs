@@ -3,6 +3,9 @@
 	"singleQuote": true,
 	"trailingComma": "none",
 	"printWidth": 100,
+	"bracketSameLine": true,
+	"semi": false,
+	"endOfLine": "lf",
 	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
 	"overrides": [
 		{
