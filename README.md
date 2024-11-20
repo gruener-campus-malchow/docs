@@ -1,7 +1,38 @@
-# CampusSlides
+# sv
 
-This project enables you to write presentations with Markdown. You can see a stable version in action at https://gcm.schule/slides/.
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Installation
+## Creating a project
 
-Put the files on an Apache webserver running PHP. That's it, no more tampering with config files required.
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
