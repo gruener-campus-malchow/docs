@@ -2,13 +2,10 @@
 
 ## Developing
 
-Once you've installed dependencies with `npm ci`, start a development server:
-
 ```bash
+cd docs
+npm ci
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
 ## Building
